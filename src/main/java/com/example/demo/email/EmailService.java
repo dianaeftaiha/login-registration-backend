@@ -13,7 +13,7 @@ import javax.mail.internet.MimeMessage;
 
 @Service
 @AllArgsConstructor
-public class EmailService implements EmailSender{
+public class EmailService implements EmailSender {
     private static final String SUBJECT = "Confirm your email";
     private static final String FROM = "hello@demo.com";
     private static final Logger LOGGER = LoggerFactory.getLogger(EmailService.class);
